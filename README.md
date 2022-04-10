@@ -27,7 +27,7 @@ Mama Recipe is here to help you cook delicious and simple meals. We offer recipe
 ## User Interface Design
   - Figma\
     [https://www.figma.com/file/SUbBTYCq1e4ngRt20lSdqr/Food-Recipe?node-id=47%3A2145](https://www.figma.com/file/SUbBTYCq1e4ngRt20lSdqr/Food-Recipe?node-id=47%3A2145)
-
+<!--
 ## Project Structure
 ```
 |── assets\               # Assets project
@@ -49,7 +49,7 @@ Mama Recipe is here to help you cook delicious and simple meals. We offer recipe
 ├── README.md             # For Readme In github
 └── register.html         # Register Page
 ```
-
+-->
 ## Screenshoots
 
 ## Related Project
