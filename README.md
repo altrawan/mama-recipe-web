@@ -8,7 +8,6 @@
 - [Description](#Description)
 - [Instruction to use](#Instruction-to-use)
 - [User Interface Design](#User-Interface-Design)
-- [Project Structure](#Project-Structure)
 - [Screenshoots](#Screenshoot)
 - [Related Project](#Related-Project)
 - [Contributing](#Contributing)
@@ -28,6 +27,7 @@ Mama Recipe is here to help you cook delicious and simple meals. We offer recipe
   - Figma\
     [https://www.figma.com/file/SUbBTYCq1e4ngRt20lSdqr/Food-Recipe?node-id=47%3A2145](https://www.figma.com/file/SUbBTYCq1e4ngRt20lSdqr/Food-Recipe?node-id=47%3A2145)
 <!--
+- [Project Structure](#Project-Structure)
 ## Project Structure
 ```
 |── assets\               # Assets project
