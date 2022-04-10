@@ -53,7 +53,7 @@ Mama Recipe is here to help you cook delicious and simple meals. We offer recipe
 ## Screenshoots
 
 ## Related Project
-RESTful API for this web application, clone this for development Mama Recipe.
+RESTful API for this web application, clone this for development Mama Recipe.\
 [Food Recipe RESTful API](https://github.com/altrawan/food-recipe-api)
 
 ## Contributing
@@ -62,4 +62,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-Distributed under the [MIT]() License.
+Distributed under the [MIT](/LICENSE) License.
