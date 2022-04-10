@@ -1,4 +1,4 @@
-<h1 align="center">Mama Recipe.</h1>
+<h1 align="center">Mama Recipe. Website</h1>
 
 <p align="center">
 <img src="/docs/logo.png" width="250px">
