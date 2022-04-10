@@ -7,6 +7,7 @@
 ## Table of contents
 - [Description](#Description)
 - [Instruction to use](#Instruction-to-use)
+- [User Interface Design](#User-Interface-Design)
 - [Project Structure](#Project-Structure)
 - [Screenshoots](#Screenshoot)
 - [Related Project](#Related-Project)
@@ -22,6 +23,10 @@ Mama Recipe is here to help you cook delicious and simple meals. We offer recipe
 2. Run ```npm install``` to install the dependencies
 3. Double click file ```index.html```
 4. Your default displays browser the HTML document.
+
+## User Interface Design
+  - Figma\
+    [https://www.figma.com/file/SUbBTYCq1e4ngRt20lSdqr/Food-Recipe?node-id=47%3A2145](https://www.figma.com/file/SUbBTYCq1e4ngRt20lSdqr/Food-Recipe?node-id=47%3A2145)
 
 ## Project Structure
 
