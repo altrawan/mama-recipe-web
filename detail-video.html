@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mama Recipe. Detail Video Recipe</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <!-- Icon -->
+  <link rel="shortcut icon" href="./assets/icon/favicon.ico">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/detail-recipe.css">
+</head>
+
+<body>
+  <div class="LeftBar"></div>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-3 mt-3 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./add-recipe.html">Add Recipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./profile.html">Profile</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="position-relative container-fluid pt-0 px-0 px-md-3 px-xl-5">
+      <div class="w-100 full-h d-flex justify-content-center pt-5 px-0 px-md-3 px-xl-5">
+        <div class="w-100 h-100 d-flex flex-column flex-lg-row pt-md-5 mt-5">
+          <div class="col-12 col-lg-8 px-0">
+            <div class="w-100">
+              <div class="detail-video-player" style="max-height: 70vh;">
+                <video src="./assets/videos/1bp3WrfQ-31826934.mp4" width="100%" height="100%" controls></video>
+              </div>
+              <h1 class="px-3 px-md-0 my-4 mb-0 VideoTitle">Loream Sandwich</h1>
+              <span class="VideoDate">3 month ago</span>
+            </div>
+          </div>
+          
+          <div class="col-12 col-lg-4 pt-5 px-md-0 pt-lg-0 pl-lg-3 pr-lg-0" style="margin-left: 35px;">
+            <h4 class="w-100">Other Recipe</h4>
+            <div class="w-100 p-0 d-flex flex-row flex-wrap flex-lg-column pt-4 pt-lg-0">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-12 pb-2 pb-lg-4 px-2 pl-lg-4 pr-lg-0">
+                <a href="./detail-recipe.html" class="w-100">
+                  <div class="detail-other-video clicked">
+                    <img src="./assets/img/recipes/cfef9bb1fc6e0bef50d5c8ef7a6cdff6.jpg" alt="Recipe">
+                    <!-- <video src="./assets/videos/1bp3WrfQ-31826934.mp4" width="100%" height="100%" controls></video> -->
+                    <!-- <div class="other-video w-100 h-100">
+                      <div class="container-fluid d-flex align-items-start h-100">
+                        <h5>[Step 5]</h5>
+                      </div>
+                    </div> -->
+                  </div>
+                  <span class="VideoCardTitle">Bomb Chicken</span>
+                  <br>
+                  <span class="VideoCardDate">HanaLohana - 3 month ago</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="w-100 p-0 d-flex flex-row flex-wrap flex-lg-column pt-4 pt-lg-0">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-12 pb-2 pb-lg-4 px-2 pl-lg-4 pr-lg-0">
+                <a href="./detail-recipe.html" class="w-100">
+                  <div class="detail-other-video clicked">
+                    <img src="./assets/img/recipes/65940ba73f12f048d870dfa487a052df.jpg" alt="Recipe">
+                  </div>
+                  <span class="VideoCardTitle">Banana Pancake</span>
+                  <br>
+                  <span class="VideoCardDate">HanaLohana - 3 month ago</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="w-100 p-0 d-flex flex-row flex-wrap flex-lg-column pt-4 pt-lg-0">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-12 pb-2 pb-lg-4 px-2 pl-lg-4 pr-lg-0">
+                <a href="./detail-recipe.html" class="w-100">
+                  <div class="detail-other-video clicked">
+                    <img src="./assets/img/recipes/4da51338c06dd21688b82eae3bc9dfa6.jpg" alt="Recipe">
+                  </div>
+                  <span class="VideoCardTitle">Loream Sandwich</span>
+                  <br>
+                  <span class="VideoCardDate">HanaLohana - 3 month ago</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="row mt-5">
+      <div class="col-xs-12 col-md-12 col-lg-8 col-xl-8 mb-3">
+        <video class="VideoSize" src="./assets/videos/1bp3WrfQ-31826934.mp4" controls></video>
+        <br>
+        <span class="VideoTitle">Beef Steak with Curry Sauce - [Step 4] Cut the condiment and then mix it</span>
+        <span class="VideoDate">3 month ago</span>
+        <video src="#"></video>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4">
+        <h4>Next</h4>
+        <div class="NextVideoCard">
+          <video class="VideoImageCard" src="./assets/videos/1bp3WrfQ-31826934.mp4"></video>
+          <span class="VideoNextText">[Step 5]</span>
+          <span class="VideoCardTitle">Beef Steak with Curry Sauce - [Step 5] Saute condiments together until turn brown</span>
+          <br>
+          <span class="VideoCardDate">HanaLohana - 3 month ago</span>
+        </div>
+        <div class="NextVideoCard">
+          <video class="VideoImageCard" src="./assets/videos/1bp3WrfQ-31826934.mp4"></video>
+          <span class="VideoNextText">[Step 6]</span>
+          <span class="VideoCardTitle">Beef Steak with Curry Sauce - [Step 6] Roast beef until it’s medium rare</span>
+          <br>
+          <span class="VideoCardDate">HanaLohana - 3 month ago</span>
+        </div>
+        <div class="NextVideoCard">
+          <video class="VideoImageCard" src="./assets/videos/1bp3WrfQ-31826934.mp4"></video>
+          <span class="VideoNextText">[Step 6]</span>
+          <span class="VideoCardTitle">Beef Steak with Curry Sauce - [Step 6] Roast beef until it’s medium rare</span>
+          <br>
+          <span class="VideoCardDate">HanaLohana - 3 month ago</span>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Bootstrap JS -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- jQuery -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

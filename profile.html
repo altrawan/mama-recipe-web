@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mama Recipe. - Profile Page</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <!-- Icon -->
+  <link rel="shortcut icon" href="./assets/icon/favicon.ico">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/profile.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-3 mt-3 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./add-recipe.html">Add Recipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./profile.html">Profile</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section style="margin-top: 200px;">
+      <div class="Image mx-auto" style="background-image: url('./assets/img/4662c85cb7661f579e2c9baff0ce5fdc.png');">
+        <img src="./assets/icon/edit.svg" alt="" class="EditBtn" style="height: 24px; width: 24px;">
+      </div>
+      <div class="mx-auto text-center">
+        <p class="Username mt-2">
+          Garneta Sharina
+        </p>
+      </div>
+      <div class="EditSection mx-auto Show">
+        <button class="DefaultBtn d-block">Change Photo Profile</button>
+        <button class="DefaultBtn d-block">Change Password</button>
+      </div>
+    </section>
+  </div>
+
+  <div class="container mb-5 mt-5">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+          role="tab" aria-controls="home" aria-selected="true">My Recipe</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+          role="tab" aria-controls="profile" aria-selected="false">Saved Recipe</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+          role="tab" aria-controls="contact" aria-selected="false">Liked Recipe</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active mt-4" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="ItemList ItemListActive" id="MyRecipe">
+          <div class="CardWrapper">
+            <div class="CardList">
+              <a href="./detail-recipe.html">
+                <img src="./assets/img/recipes/cfef9bb1fc6e0bef50d5c8ef7a6cdff6.jpg" alt="Image"
+                  style="width: 270px; height: 180px; object-fit: cover; object-position: center; border-radius: 10px;">
+                <h1>Bomb Chicken</h1>
+              </a>
+              <div class="row">
+                <a href="./edit-recipe.html">
+                  <img src="./assets/img/edit-11-32.png" alt="Edit" class="EditButton">
+                </a>
+                <a href="#">
+                  <img src="./assets/img/delete-32.png" alt="Delete" class="DeleteButton">
+                </a>
+              </div>
+            </div>
+            <div class="CardList">
+              <a href="./detail-recipe.html">
+                <img src="./assets/img/recipes/65940ba73f12f048d870dfa487a052df.jpg" alt="Image"
+                  style="width: 270px; height: 180px; object-fit: cover; object-position: center; border-radius: 10px;">
+                <h1>Banana Pancake</h1>
+              </a>
+              <div class="row">
+                <a href="./edit-recipe.html">
+                  <img src="./assets/img/edit-11-32.png" alt="Edit" class="EditButton">
+                </a>
+                <a href="#">
+                  <img src="./assets/img/delete-32.png" alt="Delete" class="DeleteButton">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="tab-pane fade show active mt-4" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="ItemList ItemListActive" id="MyRecipe">
+            <div class="CardWrapper">
+              <div class="CardList">
+                <a href="./detail-recipe.html">
+                  <img src="./assets/img/recipes/572da9a89bc5f8fe0da12c9a18c352e7.jpg" alt="Image"
+                    style="width: 270px; height: 180px; object-fit: cover; object-position: center; border-radius: 10px;">
+                  <h1>Chicken Kare</h1>
+                </a>
+                <div class="row">
+                  <a href="#">
+                    <img src="./assets/img/delete-32.png" alt="Delete" class="DeleteButton">
+                  </a>
+                </div>
+              </div>
+              <div class="CardList">
+                <a href="./detail-recipe.html">
+                  <img src="./assets/img/recipes/cfef9bb1fc6e0bef50d5c8ef7a6cdff6.jpg" alt="Image"
+                    style="width: 270px; height: 180px; object-fit: cover; object-position: center; border-radius: 10px;">
+                  <h1>Bomb Chicken</h1>
+                </a>
+                <div class="row">
+                  <a href="#">
+                    <img src="./assets/img/delete-32.png" alt="Delete" class="DeleteButton">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="tab-pane fade show active mt-4" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="ItemList ItemListActive" id="MyRecipe">
+            <div class="CardWrapper">
+              <div class="CardList">
+                <a href="./detail-recipe.html">
+                  <img src="./assets/img/recipes/6c4d7c1bef2c9e97e8df92d4be8a1d1a.jpg" alt="Image"
+                    style="width: 270px; height: 180px; object-fit: cover; object-position: center; border-radius: 10px;">
+                  <h1>King Burger</h1>
+                </a>
+                <div class="row">
+                  <a href="#">
+                    <img src="./assets/img/delete-32.png" alt="Delete" class="DeleteButton">
+                  </a>
+                </div>
+              </div>
+              <div class="CardList">
+                <a href="./detail-recipe.html">
+                  <img src="./assets/img/recipes/65940ba73f12f048d870dfa487a052df.jpg" alt="Image"
+                    style="width: 270px; height: 180px; object-fit: cover; object-position: center; border-radius: 10px;">
+                  <h1>Banana Pancake</h1>
+                </a>
+                <div class="row">
+                  <a href="#">
+                    <img src="./assets/img/delete-32.png" alt="Delete" class="DeleteButton">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="Wrapper text-center">
+    <div class="container">
+      <div class="mx-auto">
+        <p class="Title">Eat, Cook, Repeat</p>
+        <p class="Subtitle">Share your best Recipe by uploading here !</p>
+      </div>
+      <div class="mx-auto NavList">
+        <a href="#" class="NavItem">Product</a>
+        <a href="#" class="NavItem">Company</a>
+        <a href="#" class="NavItem">Learn More</a>
+        <a href="#" class="NavItem">Get In Touch</a>
+        <div class="Copyright">
+          <span>&copy; pijarcamp</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- <section class="container section-profile d-flex justify-content-center flex-column align-items-center">
+    <div class="img-profile-section">
+      <img src="./assets/img/4662c85cb7661f579e2c9baff0ce5fdc.png" alt="User Profile" class="img-profile">
+      <img src="./assets/icon/edit.svg" alt="Edit" class="edit-profile clicked">
+    </div>
+    <div class="mt-4">
+      <h3 class="text-center">Garneta Sharina</h3>
+    </div>
+  </section>
+  <section class="container-fluid pl-xl-5 pr-xl-5">
+    <div class="col-md-5 col-lg-4 col-xl=3 d-flex flex-column flex-sm-row justify-content-between pl-3 pl-xl-5 pr-3 pr-xl-5">
+
+    </div>
+  </section> -->
+
+  <!-- Bootstrap JS -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- jQuery -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

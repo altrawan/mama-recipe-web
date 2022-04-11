@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mama Recipe. - Landing Page v1</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <!-- Icon -->
+  <link rel="shortcut icon" href="./assets/icon/favicon.ico">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/homepage.css">
+</head>
+
+<body>
+  <!-- <header> -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-3 mt-3 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./add-recipe.html">Add Recipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./profile.html">Profile</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mb-2 ms-auto mb-lg-0 d-flex" class="auth">
+            <li class="nav-item">
+              <a href="./login.html" class="nav-link" id="auth-link">
+                <i class="fas fa-user-circle me-2"></i>
+                Login
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section Start -->
+    <section class="position-relative w-100 full-h d-flex align-items-center pl-0 pl-md-3 pl-xl-5 pr-0">
+      <div class="w-100 h-100 pl-xl-5 pr-0 h-100 d-flex justify-content-between align-items-center">
+        <div class="w-50 d-flex flex-column col-12 col-sm-10 col-md-5 col-xl-4 pl-xl-0" style="margin-left: 50px;">
+          <h1 class="text-wrap text-sm-nowrap p-0 d-flex flex-column mb-4 dashboard-header-title">
+            Discover Recipe
+            <span class="text-wrap text-sm-nowrap">
+              & Delicios Food
+            </span>
+          </h1>
+          <div class="col-8 p-0">
+            <form action="#">
+              <div class="form-group dashboard-search d-flex align-items-center p-3 pl-4 rounded-lg">
+                <div class="col-1 p-0 mr-2 pb-1 d-flex justify-content-center">
+                  <label class="m-0"><img src="./assets/icon/search.svg" alt="Search"></label>
+                </div>
+                <div class="col-11-0" style="width: 100%;">
+                  <input type="text" class="form-control pl-0 pr-0" placeholder="Search Restaurant, Food"
+                    style="background-color: transparent; border: none; outline: none; box-shadow: none;">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="full-h d-none d-md-flex col-md-4 col-lg-3 pr-3 pr-xl-5 pl-0" style="background-color: #EFC81A;">
+          <div class="col-12 position-relative h=100 d-flex align-items-center justify-content-end pr-0 pr-xl-5 pl-0">
+            <div class="dashboard-img-header pr-3 pr-xl-0" style="margin-right: 170px;">
+              <img src="./assets/img/recipes/4da51338c06dd21688b82eae3bc9dfa6.jpg" alt="Mama Recipe."
+                class="w-100 h-100 p-0" style="object-fit: cover; object-position: center; border-radius: 15px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Popular Recipe Section Start -->
+    <section class="position-relative w-100 full-h d-flex flex-column pl-0 pl-xl-5 pr-0 pr-xl-5">
+      <div class="w-100 p-0 pr-3 pr-md-0 pl-3 pl-xl-5 d-flex flex-row pt-5 mt-5">
+        <div class="p-4 w-100 dashboard-header-sub-title" style="background-color: #ffffff40;">
+          <h2>Popular For You!</h2>
+        </div>
+      </div>
+      <div class="w-100 pl-0 pl-md-3 pl-xl-5 pr-0 pr-xl-5 pt-5 d-flex flex-row justify-content-between h-100">
+        <div class="position relative col-md-6 d-none d-md-flex p-0 pl-3 pl-xl-0">
+          <div class="dashboard-img-popular pr-3">
+            <div class="w-100 h-100 position-relative">
+              <div class="w-100 h-100 position-absolute"
+                style="border: 3px solid #EFC81A; border-radius: 15px; z-index: -1; right: -40px; bottom: -40px;"></div>
+              <img src="./assets/img/recipes/52207741d95649c4cb58a57ba663027f.jpg" alt="Popular Recipe"
+                class="w-100 h-100 p-0" style="object-fit: cover; object-position: center; border-radius: 15px;">
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 d-flex align-items-center justify-content-start pt-0 pt-md-5 mt-0 mt-md-5 p-0 pr-3 pr-xl-0">
+          <div class="col-md-12 col-lg-10 col-xl-9 d-flex flex-column align-items-start pl-3 pl-md-5"
+            style="margin-left: 150px;">
+            <h1 class="pr-5 pr-md-0 dashboard-header-text"
+              style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+              Healthy Bone Broth<br> Ramen (Quick & Easy)
+            </h1>
+            <hr class="m-0 mt-4 w-25" style="border: 2px solid #6F6A40;">
+            <p class="mt-4 pr-5 dashboard-header-text font-weight-medium"
+              style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+              Quick + Easy Chicken Bone Broth Ramen-<br> Healthy chicken ramen in a hurry? That’s right!
+            </p>
+            <a href="./detail-recipe.html" class="btn btn-warning btn-main clicked px-4 py-2 mt-4">
+              <span class="font-weight-medium text-white">Lean More</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Popular Recipe Section End -->
+
+    <!-- New Recipe Section Start -->
+    <section class="position-relative w-100 full-h d-flex flex-column pl-0 pl-xl-5 pr-0 pr-xl-5">
+      <div class="w-100 p-0 pr-3 pr-md-0 pl-3 pl-xl-5 d-flex flex-row pt-5 mt-5">
+        <div class="p-4 w-100 dashboard-header-sub-title" style="background-color: #ffffff40;">
+          <h2>New Recipe</h2>
+        </div>
+      </div>
+      <div
+        class="position relative w-100 pl-0 pl-md-3 pl-xl-5 pr-0 pr-xl-5 pt-5 mt-5 d-flex flex-row justify-content-between h-100">
+        <div class="col-md-6 d-none d-md-flex p-0 pl-0 pl-md-3 pl-xl-0">
+          <div class="col-4 position-absolute pl-0 pb-2 dashboard-custom-new h-100"
+            style="z-index: -1; left: -100px; top: 220px;">
+            <div class="w-100" style="background-color: #EFC81A; height: 550px;"></div>
+          </div>
+          <div class="dashboard-img-popular">
+            <div class="w-100 h-100">
+              <img src="./assets/img/recipes/c2792cef25a0bfa97a2bd8c65b80f9c5.jpg" alt="New Recipe"
+                class="w-100 h-100 p-0" style="object-fit: cover; object-position: center; border-radius: 15px;">
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 d-flex align-items-center justify-content-start pt-0 pt-md-5 mt-0 mt-md-5 p-0 pr-3 pr-xl-0">
+          <div class="col-md-12 col-lg-10 col-xl-9 d-flex flex-column align-items-start pl-3 pl-md-5"
+            style="margin-left: 150px;">
+            <h1 class="pr-5 pr-md-0 dashboard-header-text"
+              style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+              Healthy Bone Broth<br> Ramen (Quick & Easy)
+            </h1>
+            <hr class="m-0 mt-4 w-25" style="border: 2px solid #6F6A40;">
+            <p class="mt-4 pr-5 dashboard-header-text font-weight-medium"
+              style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+              Quick + Easy Chicken Bone Broth Ramen-<br> Healthy chicken ramen in a hurry? That’s right!
+            </p>
+            <a href="./detail-recipe.html" class="btn btn-warning btn-main clicked px-4 py-2 mt-4">
+              <span class="font-weight-medium text-white">Lean More</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- New Recipe Section End -->
+
+    <!-- List Recipe Section Start -->
+    <div class="w-100 full-h d-flex flex-column pl-0 pl-xl-5 pr-0 pr-xl-5">
+      <div class="w-100 p-0 pr-3 pr-md-0 pl-3 pl-xl-5 d-flex flex-row pt-5 mt-5">
+        <div class="p-4 w-100 dashboard-header-sub-title" style="background-color: #ffffff40;">
+          <h2>Popular Recipe</h2>
+        </div>
+      </div>
+      <div class="p-0 pl-3 pl-xl-5 pr-3 pr-xl-5 mt-5 d-flex flex-row flex-wrap" style="width: 95%; margin-left: 38px;">
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3 mb-sm-4 mb-lg-5 p-0 px-sm-2 px-lg-3">
+          <div class="dashboard-item position-relative">
+            <div class="w-100 h-100 p-4 d-flex align-items-end clicked">
+              <h2 class="col-10 text-dark">Chicken<br> Kare</h2>
+              <div class="position-absolute w-100 h-100" style="z-index: -1; top: 0; left: 0;"></div>
+              <img src="./assets/img/recipes/572da9a89bc5f8fe0da12c9a18c352e7.jpg" alt="Recipe"
+                class="position-absolute w-100 h-100"
+                style="z-index: -2; top: 0; left: 0; object-fit: cover; object-position: center;">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3 mb-sm-4 mb-lg-5 p-0 px-sm-2 px-lg-3">
+          <div class="dashboard-item position-relative">
+            <div class="w-100 h-100 p-4 d-flex align-items-end clicked">
+              <h2 class="col-10 text-dark">Bomb<br>Chicken</h2>
+              <div class="position-absolute w-100 h-100" style="z-index: -1; top: 0; left: 0;"></div>
+              <img src="./assets/img/recipes/cd160da3e1426c3f659218e145224ffc.jpg" alt="Recipe"
+                class="position-absolute w-100 h-100"
+                style="z-index: -2; top: 0; left: 0; object-fit: cover; object-position: center;">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3 mb-sm-4 mb-lg-5 p-0 px-sm-2 px-lg-3">
+          <div class="dashboard-item position-relative">
+            <div class="w-100 h-100 p-4 d-flex align-items-end clicked">
+              <h2 class="col-10 text-dark">Banana<br>Smothie Pop</h2>
+              <div class="position-absolute w-100 h-100" style="z-index: -1; top: 0; left: 0;"></div>
+              <img src="./assets/img/recipes/7c36ec9fa871caac4eb5b3658eea9aaa.jpg" alt="Recipe"
+                class="position-absolute w-100 h-100"
+                style="z-index: -2; top: 0; left: 0; object-fit: cover; object-position: center;">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3 mb-sm-4 mb-lg-5 p-0 px-sm-2 px-lg-3">
+          <div class="dashboard-item position-relative">
+            <div class="w-100 h-100 p-4 d-flex align-items-end clicked">
+              <h2 class="col-10 text-dark">Coffe<br>Lava Cake</h2>
+              <div class="position-absolute w-100 h-100" style="z-index: -1; top: 0; left: 0;"></div>
+              <img src="./assets/img/recipes/19713936f65f2db089da584640f4b823.jpg" alt="Recipe"
+                class="position-absolute w-100 h-100"
+                style="z-index: -2; top: 0; left: 0; object-fit: cover; object-position: center;">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3 mb-sm-4 mb-lg-5 p-0 px-sm-2 px-lg-3">
+          <div class="dashboard-item position-relative">
+            <div class="w-100 h-100 p-4 d-flex align-items-end clicked">
+              <h2 class="col-10 text-dark">Sugar<br>Salmon</h2>
+              <div class="position-absolute w-100 h-100" style="z-index: -1; top: 0; left: 0;"></div>
+              <img src="./assets/img/recipes/ec253e0e662a4e3aa070cee5202021e3.jpg" alt="Recipe"
+                class="position-absolute w-100 h-100"
+                style="z-index: -2; top: 0; left: 0; object-fit: cover; object-position: center;">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3 mb-sm-4 mb-lg-5 p-0 px-sm-2 px-lg-3">
+          <div class="dashboard-item position-relative">
+            <div class="w-100 h-100 p-4 d-flex align-items-end clicked">
+              <h2 class="col-10 text-dark">Indian<br>Salad</h2>
+              <div class="position-absolute w-100 h-100" style="z-index: -1; top: 0; left: 0;"></div>
+              <img src="./assets/img/recipes/bb6555764d018e0687640abdfde17ba9.jpg" alt="Recipe"
+                class="position-absolute w-100 h-100"
+                style="z-index: -2; top: 0; left: 0; object-fit: cover; object-position: center;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- List Recipe Section End -->
+  </div>
+  <!-- Footer Start -->
+  <footer class="Wrapper text-center">
+    <div class="container">
+      <div class="mx-auto">
+        <p class="Title">Eat, Cook, Repeat</p>
+        <p class="Subtitle">Share your best Recipe by uploading here !</p>
+      </div>
+      <div class="mx-auto NavList">
+        <a href="#" class="NavItem">Product</a>
+        <a href="#" class="NavItem">Company</a>
+        <a href="#" class="NavItem">Learn More</a>
+        <a href="#" class="NavItem">Get In Touch</a>
+        <div class="Copyright">
+          <span>&copy; pijarcamp</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- <footer class="container-fluid pt-5 foot">
+    <div class="d-flex h-100 flex-column align-items-center pt-0 pt-md-5">
+      <div class="w-100 d-flex flex-column align-items-center mb-4 mb-md-5">
+        <h1 class="text-nowrap footer-head-text">Eat, Cook, Repeat</h1>
+        <p class="text-center footer-subhead-text">Share your best recipe by uploading here !</p>
+      </div>
+      <div class="w-100 d-flex justify-content-md-center flex-nowrap footer-text font-weight-medium mt-0">
+        <div class="col-md-8 col-xl-6 d-flex justify-content-between flex-wrap flex-column flex-md-row">
+          <p>Product</p>
+          <p>Company</p>
+          <p class="text-nowrap">Learn More</p>
+          <p class="text-nowrap">Get In Touch</p>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+  <!-- Footer End -->
+
+  <!-- </header> -->
+  <!-- Bootstrap JS -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- jQuery -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

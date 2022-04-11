@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mama Recipe. Detail Recipe Page</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <!-- Icon -->
+  <link rel="shortcut icon" href="./assets/icon/favicon.ico">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/detail-recipe.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-3 mt-3 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./add-recipe.html">Add Recipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./profile.html">Profile</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="position-relative container-fluid mt-5 pt-0 pt-md-5 pl-xl-5 pr-xl-5">
+      <div class="w-100 full-h d-flex justify-content-center pt-0 pt-md-5">
+        <div class="col-12 col-md-11 col-lg-10 col-xl-9">
+          <div class="w-100 d-flex flex-column align-items-center">
+            <h1 class="mb-5 text-center">Loream Sandwich</h1>
+            <div class="position-relative col-12 col-md-11 col-lg-10 col-xl-9 mb-5 p-0">
+              <img src="./assets/img/recipes/4da51338c06dd21688b82eae3bc9dfa6.jpg" alt="Recipe"
+                class="w-100 p-0 img-recipe-detail detail-rounded" style="object-fit: cover;">
+              <div class="action-user position-absolute d-flex align-items-center justify-content-end"
+                style="gap: 10px;">
+                <div class="detail-rounded-1 mr-3 clicked Selected" style="background-color: #EFC81A;">
+                  <img src="./assets/img/bookmark.png" alt="Bookmark">
+                </div>
+                <div class="detail-rounded-2 mr-3 clicked noSelected" style="background-color: #fff;">
+                  <img src="./assets/img/liked.png" alt="Liked">
+                </div>
+              </div>
+            </div>
+            <div class="position-relative col-12 col-md-11 col-lg-10 col-xl-9 mb-5 mt-0 p-0">
+              <div class="mt-5 mb-5 w-100">
+                <h2 class="mb-2">Ingredients</h2>
+                <p class="m-0 font-weight-medium" style="white-space: pre-line; text-transform: capitalize;">
+                  - 2 eggs
+                  - 2 tbsp mayonnaise
+                  - 3 slices bread
+                  - a little butter
+                  - ⅓ carton of cress
+                  - 2-3 slices of tomato or a lettuce leaf and a slice of ham or cheese
+                  - crisps , to serve
+                </p>
+              </div>
+              <div class="mt-5 mb-2 w-100 d-flex flex-column">
+                <h2 class="m-0">Video Step</h2>
+                <a href="./detail-video.html"
+                  class="btn-main detail-rounded col-12 col-md-7 col-xl-4 p-4 mt-5 btn btn-warning font-weight-medium"><img
+                    src="./assets/img/play.png" alt="Video" style="width: 15px; height: auto;"></a>
+              </div>
+              <div class="mb-5 w-100" style="margin-top: 100px;">
+                <form action="#" class="d-flex flex-column align-items-center">
+                  <div class="form-group col-12 mb-4 detail-rounded p-4" style="background-color: #F6F5F4;">
+                    <label for="textarea" class="mb-1 font-weight-medium">Comment :</label>
+                    <textarea id="textarea" cols="30" rows="7" class="form-control"
+                      style="background-color: transparent; border: none; outline: none;"></textarea>
+                  </div>
+                  <button type="submit"
+                    class="col-12 col-md-8 col-lg-4 btn-main btn btn-warning  pt-3 pb-3 font-weight-medium">Send</button>
+                </form>
+              </div>
+              <div class="mt-5 mb-5 w-100">
+                <h2 class="mb-5">Comment</h2>
+                <div class="d-flex flex-row align-items-center mb-3">
+                  <img src="./assets/img/c08f710828e1d2aacf71af8c92583062.png" alt="Olivia"
+                    class="img-comments rounded-circle">
+                  <div class="d-flex flex-column justify-content-center h-100" style="padding-left: 20px;">
+                    <h6>Olivia</h6>
+                    <span>Nice recipe. simple and delicious, thankyou</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="Wrapper text-center">
+    <div class="container">
+      <div class="mx-auto">
+        <p class="Title">Eat, Cook, Repeat</p>
+        <p class="Subtitle">Share your best Recipe by uploading here !</p>
+      </div>
+      <div class="mx-auto NavList">
+        <a href="#" class="NavItem">Product</a>
+        <a href="#" class="NavItem">Company</a>
+        <a href="#" class="NavItem">Learn More</a>
+        <a href="#" class="NavItem">Get In Touch</a>
+        <div class="Copyright">
+          <span>&copy; pijarcamp</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- jQuery -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

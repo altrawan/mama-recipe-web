@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mama Recipe. Register Page</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Icon -->
+  <link rel="shortcut icon" href="./assets/icon/favicon.ico">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="./assets/css/auth.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="position-relative d-none d-md-block col-md-4 col-lg-6 p-0">
+        <img src="./assets/img/76c7e3577554580136d5f65222046a21.png" alt="Background"
+          style="object-fit: cover; object-position: center; transform: rotate(-180deg);" class="w-100 full-h">
+        <div class="mask h-100 w-100 d-flex justify-content-center align-items-center">
+          <img src="./assets/img/Group1.png" alt="Logo">
+        </div>
+      </div>
+      <div class="full-h d-flex justify-content-center align-items-center col-12 col-md-8 col-lg-6">
+        <div class="col-10 col-md-8 col-xl-6 d-flex flex-column justify-content-center align-items-center font-weight-medium p-0">
+          <h2 class="main-color font-weight-bold">Let's Get Started !</h2>
+          <span class="blur-color mt-4 mb-4 font-weight-normal text-center">Create new account to access all features</span>
+          <hr class="separator mb-0 mt-1">
+          <form action="./login.html" class="w-100 mb-3 mt-3">
+            <div class="form-group mb-3">
+              <label for="name" class="mb-2">Name</label>
+              <input type="text" placeholder="Enter Name" id="name" class="form-control pt-3 pb-3 pl-3 pr-0 input-auth" required>
+            </div>
+            <div class="form-group mb-3">
+              <label for="email" class="mb-2">Email Address*</label>
+              <input type="email" placeholder="Enter email address" id="email" class="form-control pt-3 pb-3 pl-3 pr-0 input-auth" required>
+            </div>
+            <div class="form-group mb-3">
+              <label for="phone" class="mb-2">Phone Number</label>
+              <input type="text" placeholder="08xxxxxxxxxx" id="phone" class="form-control pt-3 pb-3 pl-3 pr-0 input-auth" required>
+            </div>
+            <div class="form-group mb-3">
+              <label for="password" class="mb-2">Create New Password</label>
+              <input type="password" placeholder="Create New Password" id="password" class="form-control pt-3 pb-3 pl-3 pr-0 input-auth" required>
+            </div>
+            <div class="form-group mb-3">
+              <label for="new-password" class="mb-2">New Password</label>
+              <input type="password" placeholder="New Password" id="new-password" class="form-control pt-3 pb-3 pl-3 pr-0 input-auth" required>
+            </div>
+            <div class="form-group mb-4 d-flex align-items-center" style="gap: 10px;">
+              <input type="checkbox" class="checkbox" id="checkbox" required>
+              <label for="checkbox">I agree to terms & conditions</label>
+            </div>
+            <button type="submit" class="w-100 btn-main pt-3 pb-3 font-weight-medium">
+              Register Account
+            </button>
+          </form>
+          <div class="w-100 d-flex flex-column">
+            <div class="w-100 d-flex justify-content-center align-items-center">
+              <span class="blur-color">
+                Already have account? <a href="./login.html" class="main-color clicked text-decoration-none">Log In Here</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
