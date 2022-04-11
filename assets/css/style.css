@@ -1,0 +1,229 @@
+@font-face {
+  font-family: 'Airbnb Cereal App';
+  src: url(../fonts/AirbnbCereal_W_Lt.otf);
+}
+
+:root {
+  --main-color: #efc81a;
+  --secondary-color: #ffffff;
+  --main-text: #2e266f;
+  --black-900: #030202;
+  --black-400: #3f3a3a;
+  --black-200: #696f79;
+  --black-000: #ffffff;
+  --shadow-black-100: 0 5px 15px rgba(0, 0, 0, 0.1);
+     --shadow-black-300: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: transparent;
+  padding: 10px 25px;
+  transition: all 0.5s ease;
+}
+
+.navbar.navbar-shrink {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--black-000);
+  padding: 10px 25px;
+}
+
+.navbar.navbar-shrink .nav-item .nav-link {
+  color: var(--main-text);
+}
+
+.navbar.navbar-shrink .nav-item .nav-link::before {
+  color: var(--main-text);
+}
+
+.navbar > .container {
+  padding: 0 15px;
+}
+
+.navbar .nav-item {
+  margin-left: 40px;
+}
+
+.navbar .nav-item .nav-link {
+  color: var(--main-text);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 10px;
+  position: relative;
+  font-family: 'Airbnb Cereal App';
+}
+
+.navbar .nav-item .nav-link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  background-color: var(--main-text);
+  transition: all 0.5s ease;
+  transform: scale(0);
+}
+
+.navbar .nav-item .nav-link.active::before,
+.navbar .nav-item .nav-link:hover::before {
+  transform: scale(1);
+}
+
+.navbar .nav-item #auth-link {
+  color: var(--black-000);
+  padding-right: 120px;
+}
+
+.navbar.navbar-shrink .nav-item #auth-link {
+  color: var(--main-text);
+}
+
+.navbar .nav-item #auth-link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  color: var(--main-text);
+  transition: all 0.5s ease;
+  transform: scale(0);
+}
+
+.navbar .nav-item #auth-link-2 {
+  color: var(--black-000);
+  padding-right: 30px;
+}
+
+.btn-logout {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  padding: 7px 15px;
+}
+
+.btn-logout a {
+  color: var(--black-000);
+  text-decoration: none;
+}
+
+.navbar .nav-item #auth-link-2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  color: var(--main-text);
+  transition: all 0.5s ease;
+  transform: scale(0);
+}
+
+.navbar.navbar-shrink .nav-item #auth-link-2 {
+  color: var(--main-text);
+}
+
+.navbar.navbar-shrink .navbar-toggler,
+.navbar.navbar-shrink .navbar-nav {
+  background-color: var(--black-000);
+}
+
+.navbar.navbar-shrink .nav-item .btn-logout {
+  border: 1px solid var(--main-text);
+}
+
+.navbar.navbar-shrink .nav-item .btn-logout a {
+  color: var(--main-text);
+}
+
+@media screen and (max-width: 990px) {
+  /* .navbar {
+    background-color: background-color: transparent;;
+  } */
+
+  .navbar-toggler {
+    background-color: var(--black-000);
+    box-shadow: var(--shadow-black-300);
+    height: 34px;
+    width: 44px;
+    padding: 0;
+    font-size: 17px;
+    color: var(--main-text);
+  }
+
+  .navbar-nav {
+    background-color: var(--black-000);
+    /* box-shadow: var(--shadow-black-300); */
+  }
+
+  .navbar .nav-item {
+    margin: 0;
+    padding: 5px 15px;
+  }
+}
+
+.Wrapper {
+  height: auto;
+  background-color: #efc81a;
+  color: #2e266f;
+  padding-top: 200px;
+  font-family: 'Airbnb Cereal App';
+  margin-top: 20px;
+  position: relative;
+}
+
+.Title {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.Subtitle {
+  font-size: 22px;
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.NavList {
+  margin-top: 150px;
+  /* width: 400px; */
+  padding-left: 7vw;
+}
+
+.NavItem {
+  display: inline-block;
+  color: #707070;
+  margin-right: 15px;
+  font-size: 16px;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+
+.Copyright {
+  font-size: 14px;
+  color: #000000;
+  float: right;
+}
+
+@media only screen and (max-width: 450px) {
+  .NavList {
+    margin-top: 100px;
+    /* width: 180px; */
+    /* padding-bottom: 10px; */
+  }
+  .NavItem {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .Copyright {
+    float: none;
+    text-align: center;
+  }
+}

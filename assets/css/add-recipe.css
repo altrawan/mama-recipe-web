@@ -1,0 +1,57 @@
+.main-add-recipe{
+  margin-top: 160px;
+}
+
+.inpt-img{
+  max-width: 1000px;
+  height: 480px;
+  background-color: #F6F5F4;
+  border-radius: 15px;
+}
+
+.inpt-title{
+  width: 1000px;
+  height: 70px;
+  background-color: #F6F5F4;
+  border-radius: 15px;
+  margin-top: 40px;
+  padding-left: 30px;
+}
+
+.inpt-ingredients{
+  width: 1000px;
+  height: 380px;
+  background-color: #F6F5F4;
+  border-radius: 15px;
+  margin-top: 40px;
+  padding-left: 30px;
+}
+
+.add-recipe-input{
+  width: 100%;
+  background-color: transparent;
+  text-decoration: none;
+  outline: transparent;
+  border: transparent;
+}
+
+.button-add-recipe {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  height: 64px;
+  width: 426px;
+  border-radius: 6px;
+  color: #EFC81A;
+}
+
+#customBtn {
+  background-color: transparent;
+  font-family: 'Airbnb Cereal App';
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  color: #666666;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}

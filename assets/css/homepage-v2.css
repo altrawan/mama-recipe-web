@@ -1,0 +1,137 @@
+body {
+  background-color: #fff5ec;
+}
+
+.full-h {
+  min-height: 100vh;
+}
+
+.dashboard-search {
+  background-color: #ffffff;
+  box-sizing: border;
+  transition: ease-in-out 300ms;
+}
+
+.dashboard-search:hover {
+  box-shadow: 0 0 3px 2px #00000010;
+  transition: ease-in-out 300ms;
+}
+
+.dashboard-img-header {
+  position: absolute;
+  z-index: 1;
+  width: 60vh;
+  height: 60vh;
+}
+
+.dashboard-background {
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.dashboard-header-title {
+  color: var(--main-text);
+  font-size: 50px;
+  width: 100%;
+}
+
+.dashboard-header-sub-title {
+  color: var(--black-400);
+  margin-left: 50px;
+  border-left: 10px solid var(--main-color);
+}
+
+.dashboard-header-text {
+  color: var(--black-400);
+}
+
+.dashboard-img-popular {
+  width: 550px;
+  height: 550px;
+  margin-left: 50px;
+}
+
+.btn-main {
+  border-radius: 6px;
+  background-color: #efc81a;
+  color: #ffffff;
+}
+.btn-main:hover {
+  color: #ffffff;
+}
+.clicked:hover {
+  cursor: pointer;
+  color: #cea905;
+}
+.font-weight-medium {
+  font-weight: 500;
+}
+.dashboard-custom-new {
+  height: 95%;
+}
+
+
+
+.dashboard-item {
+  width: 500px;
+  height: 500px;
+  min-height: 300px;
+  max-height: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: ease-in-out 150ms;
+}
+
+.dashboard-item:hover {
+  box-shadow: 0 0 12px -2px #000000a0;
+  transition: ease-in-out 150ms;
+}
+
+@media screen and (max-width: 1566px) {
+  .dashboard-item {
+    height: 400px;
+  }
+  .popular-item {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .dashboard-img-header {
+    width: 550px;
+    height: 550px;
+  }
+  .dashboard-img-popular {
+    width: 500px;
+    height: 500px;
+  }
+  .dashboard-custom-new {
+    height: 80%;
+  }
+  .dashboard-item {
+    height: 300px;
+  }
+  .popular-item {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .dashboard-img-header {
+    width: 425px;
+    height: 425px;
+  }
+  .dashboard-img-popular {
+    width: 400px;
+    height: 400px;
+  }
+  .dashboard-custom-new {
+    height: 70%;
+  }
+
+  .popular-item,
+  .dashboard-item {
+    margin: 0;
+  }
+}

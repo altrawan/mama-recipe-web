@@ -1,0 +1,184 @@
+.full-h {
+  min-height: 100vh;
+}
+.img-recipe-detail {
+  min-width: 100%;
+  min-height: 200px;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+.action-user {
+  z-index: 2;
+  right: 30px;
+  bottom: 30px;
+  /* padding-left: 20px; */
+  /* width: 60px; */
+}
+.detail-rounded {
+  border-radius: 15px !important;
+}
+
+.detail-rounded-1 {
+  border-radius: 15px !important;
+  padding: 9.9px;
+  width: 47px;
+}
+
+.detail-rounded-2 {
+  border-radius: 15px !important;
+  padding: 6.8px;
+  width: 47px;
+}
+.btn-main {
+  height: 40px;
+  border-radius: 6px;
+  background-color: #efc81a;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-main:hover {
+  color: #ffffff;
+}
+.clicked:hover {
+  cursor: pointer;
+  color: #cea905;
+}
+.img-comments {
+  max-width: 65px;
+  min-width: 65px;
+  max-height: 65px;
+  min-height: 65px;
+  object-fit: cover;
+  object-position: center;
+}
+.detail-video-player {
+  width: 100%;
+  min-height: 400px;
+  background-color: #333333;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  padding-bottom: 12px;
+}
+.detail-other-video {
+  width: 100%;
+  min-height: 250px;
+  max-height: 250px;
+  background-color: #333333;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.other-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  z-index: 1;
+  background-color: #00000070;
+  padding-bottom: 12px;
+}
+.Selected {
+  background-color: #e4ba00;
+}
+.noSelected {
+  background-color: #b4b4b4b2;
+}
+.noSelected:hover {
+  box-shadow: inset 0 0 12px 1px #00000070;
+}
+
+.LeftBar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 70px;
+	background-color: #EFC81A;
+	z-index: -1;
+}
+
+.VideoTitle {
+	font-size: 28px;
+	line-height: 30px;
+  color: #000;
+  font-family: 'Airbnb Cereal App';
+  font-weight: bold;
+}
+
+.VideoDate {
+  font-size: 20px;
+  color: #AAAAAA;
+}
+
+a {
+  text-decoration: none;
+}
+
+.VideoCardTitle {
+  margin-top: 10px;
+	font-size: 18px;
+	line-height: 0px;
+  font-weight: 600;
+  color: #000;
+}
+
+.VideoCardTitle:hover {
+  color: #efc81a;
+}
+
+.VideoCardDate {
+  font-size: 15px;
+  color: #AAAAAA;
+}
+
+@media screen and (max-width: 767px) {
+  .detail-video-player {
+    min-height: unset;
+    border-radius: 0;
+  }
+  .img-recipe-detail {
+    min-height: 100px;
+    max-height: 300px;
+  }
+}
+
+@media only screen and ( max-width: 576px ) {
+	.VideoTitle {
+		font-size: 20px;
+	}
+}
+
+@media only screen and ( max-width: 1200px ) {
+	.VideoSize {
+		max-width: 100%;
+	}
+}
