@@ -1,4 +1,4 @@
-<h1 align="center">Mama Recipe.</h1>
+<h1 align="center">Mama Recipe. Website</h1>
 
 <p align="center">
 <img src="/docs/logo.png" width="250px">
@@ -7,7 +7,7 @@
 ## Table of contents
 - [Description](#Description)
 - [Instruction to use](#Instruction-to-use)
-- [Project Structure](#Project-Structure)
+- [User Interface Design](#User-Interface-Design)
 - [Screenshoots](#Screenshoot)
 - [Related Project](#Related-Project)
 - [Contributing](#Contributing)
@@ -23,12 +23,43 @@ Mama Recipe is here to help you cook delicious and simple meals. We offer recipe
 3. Double click file ```index.html```
 4. Your default displays browser the HTML document.
 
+## User Interface Design
+  - Figma\
+    [https://www.figma.com/file/SUbBTYCq1e4ngRt20lSdqr/Food-Recipe?node-id=47%3A2145](https://www.figma.com/file/SUbBTYCq1e4ngRt20lSdqr/Food-Recipe?node-id=47%3A2145)
+<!--
+- [Project Structure](#Project-Structure)
 ## Project Structure
-
+```
+|── assets\               # Assets project
+    ├── css\              # Files CSS
+    ├── fonts\            # Fonts
+    ├── icon\             # Icons
+    ├── img\              # Images
+    ├── js\               # Files Javascript
+    ├── videos\           # Videos
+├── add-recipe.html       # Add Recipe Page
+├── detail-recipe.html    # Detail Recipe Page
+├── detail-video.html     # Detail Video Recipe Page
+├── edit-recipe.html      # Edit Recipe Page
+├── index.html            # Landing Page
+├── login.html            # Login Page
+├── profile.html          # Profile Page
+├── .gitignore            # File name for not uploaded on github
+├── LICENSE               # License this project
+├── README.md             # For Readme In github
+└── register.html         # Register Page
+```
+-->
 ## Screenshoots
 
 ## Related Project
+RESTful API for this web application, clone this for development Mama Recipe.\
+[Food Recipe RESTful API](https://github.com/altrawan/food-recipe-api)
 
 ## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 
 ## License
+Distributed under the [MIT](/LICENSE) License.
